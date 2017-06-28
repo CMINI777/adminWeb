@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+validator.Checked=WebRoot/adminLTE/plugins/chartjs/Chart.min.js,WebRoot/adminLTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js,WebRoot/adminLTE/plugins/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js,WebRoot/adminLTE/dist/js/app.min.js,WebRoot/adminLTE/plugins/ckeditor/ckeditor.js,WebRoot/adminLTE/plugins/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js
+validator.Unchecked=
