@@ -60,9 +60,9 @@ body标签选项：
     <!-- Logo -->
     <a href="javascript:;" class="logo">
       <!-- 侧边栏 50x50像素的小型logo -->
-      <span class="logo-mini"><b>启胜</span>
+      <span class="logo-mini"><b>迷你</span>
       <!-- 常规状态和移动设备的logo -->
-      <span class="logo-lg"><b>自助设备管理系统</span>
+      <span class="logo-lg"><b>管理系统</span>
     </a>
 
     <!-- 标题导航 -->
@@ -186,7 +186,7 @@ body标签选项：
 
                 <p>
                   	后台管理员
-                  <small>东营启胜</small>
+                  <small>迷你</small>
                 </p>
               </li>
               <!-- Menu Body -->
@@ -379,7 +379,7 @@ body标签选项：
       Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2017 <a href="javascript:;">东营启胜</a>.</strong> 版权所有
+    <strong>Copyright &copy; 2017 <a href="javascript:;">迷你</a>.</strong> 版权所有
   </footer>
   
   
