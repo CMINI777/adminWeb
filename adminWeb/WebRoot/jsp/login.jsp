@@ -27,7 +27,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="javascript:;"><b>自助设备管理系统</a>
+    <a href="javascript:;"><b>迷你管理系统</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
