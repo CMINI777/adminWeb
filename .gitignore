@@ -29,11 +29,11 @@ out/
 *.iml
 
 # Eclipse
-.classpath
-.project
-.settings/
-.metadata/
-.externalToolBuilders/
-.mymetadata
-target
+# .classpath
+# .project
+# .settings/
+# .metadata/
+# .externalToolBuilders/
+# .mymetadata
+# target
 
