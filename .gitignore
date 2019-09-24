@@ -33,7 +33,7 @@ out/
 .project
 .settings/
 .metadata/
+.externalToolBuilders/
+.mymetadata
 target
 
-
-*.gitignore
