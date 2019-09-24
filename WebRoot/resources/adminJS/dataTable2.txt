@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "name": "lsqtest",
+      "IP": "192.168.13.7",
+      "CPU": "3核/1G",
+      "dataSize": "5G",
+      "operatingSystem": "CentOS 56.5",
+      "status": "运行中"
+    },
+    {
+      "name": "lsqtdfest",
+      "IP": "192.168.136.56",
+      "CPU": "1核/3G",
+      "dataSize": "3G",
+      "operatingSystem": "CentO核核核核核核核核核核核核核核核核核核核核核vS53.5",
+      "status": "已停止"
+    },
+    {
+      "name": "lsfdqtest",
+      "IP": "192.165.13.56",
+      "CPU": "1核/16G",
+      "dataSize": "2G",
+      "operatingSystem": "CentOS 52.5",
+      "status": "运行中"
+    },
+    {
+      "name": "lsqtest",
+      "IP": "192.168.13.7",
+      "CPU": "3核/1G",
+      "dataSize": "5G",
+      "operatingSystem": "CentOS 56.5",
+      "status": "运行中"
+    },
+    {
+      "name": "lsqtdfest",
+      "IP": "192.18.136.56",
+      "CPU": "1核/3G",
+      "dataSize": "13G",
+      "operatingSystem": "CentOS 53.5",
+      "status": "已停止"
+    },
+    {
+      "name": "lsfdqtest",
+      "IP": "192.165.13.56",
+      "CPU": "1核/16G",
+      "dataSize": "2G",
+      "operatingSystem": "CntOS 52.5",
+      "status": "运行中"
+    },
+    {
+      "name": "lsqtest",
+      "IP": "192.168.13.7",
+      "CPU": "3核/1G",
+      "dataSize": "5G",
+      "operatingSystem": "CentOS 56.5",
+      "status": "运行中"
+    },
+    {
+      "name": "lsqtdfest",
+      "IP": "192.168.136.56",
+      "CPU": "1核/3G",
+      "dataSize": "3G",
+      "operatingSystem": "CentOS 53.5",
+      "status": "已停止"
+    },
+    {
+      "name": "aaaaaaaaaaaaaaaaaa",
+      "IP": "192.165.13.56",
+      "CPU": "1核/16G",
+      "dataSize": "2G",
+      "operatingSystem": "CentOS 52.5",
+      "status": "运行中"
+    },
+    {
+      "name": "bbbbbbbbbbbbbbbbbbbb",
+      "IP": "192.165.13.56",
+      "CPU": "1核/16G",
+      "dataSize": "2G",
+      "operatingSystem": "CentOS 52.5",
+      "status": "运行中"
+    }
+  ]
+}
