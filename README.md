@@ -14,7 +14,7 @@ Based on Spring Boot+datatables+bootstrap table background template, with a flat
 
 基于Spring Boot+adminLTE+datatables+bootstrap table的后台模版，扁平化风格，自适应屏幕。
 
-已添加`boot-v2.0`分支，持续更新中。。。
+已添加`boot-v2.0`分支，尚有许多问题，持续更新中。。。
 
 基于spring mvc的版本不再更新：
 - `mvc` --原版本：2017 spring MVC V1.0 
