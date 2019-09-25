@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.boot.mapper.MenusMapper">
+
+
+	<select id="get" parameterType="com.boot.pojo.DatatablesFormData" resultType="com.boot.pojo.Menus">
+		select * from sys_menus order by ${params.orderColumn} ${params.orderDir} limit #{params.start},#{params.length}
+	</select>
+	
+	<select id="selectCount" resultType="java.lang.Integer">
+		select count(1) from sys_menus
+	</select>
+		
+</mapper>
