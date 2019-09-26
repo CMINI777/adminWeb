@@ -368,7 +368,7 @@ body标签选项：
     <footer class="main-footer">
         <!-- To the right -->
         <div class="pull-right hidden-xs">
-            迷你管理系统
+            Mini Project.
         </div>
         <!-- Default to the left -->
         <strong>Copyright &copy; 2017 <a href="https://github.com/CMINI777/adminWeb">CMINI777</a>.</strong> 版权所有

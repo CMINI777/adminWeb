@@ -2,7 +2,7 @@
 
 <div align="center">
 
-mini project
+Mini Project
 
 [![GitHub issues](https://img.shields.io/github/issues/CMINI777/adminWeb)](https://github.com/CMINI777/adminWeb/issues) [![GitHub forks](https://img.shields.io/github/forks/CMINI777/adminWeb)](https://github.com/CMINI777/adminWeb/network) [![GitHub stars](https://img.shields.io/github/stars/CMINI777/adminWeb)](https://github.com/CMINI777/adminWeb/stargazers) [![GitHub license](https://img.shields.io/github/license/CMINI777/adminWeb)](https://github.com/CMINI777/adminWeb/blob/master/LICENSE)
 
@@ -17,8 +17,8 @@ Based on Spring Boot+datatables+bootstrap table background template, with a flat
 已添加`boot`分支，尚有许多问题，持续更新中。。。
 
 基于spring mvc的版本不再更新：
-- `mvc` --原版本：2017 spring MVC V1.0 
-- `mvc-eclipseProject` --原工程：2017 spring MVC EclipseProject V1.0 
+- `mvc` --原版本：2017 Spring MVC V1.0 
+- `mvc-eclipseProject` --原工程：2017 Spring MVC EclipseProject V1.0 
 
 ## Usage
 

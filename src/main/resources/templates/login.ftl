@@ -17,6 +17,7 @@
     <!-- iCheck -->
     <link rel="stylesheet" href="/static/adminLTE/plugins/iCheck/square/blue.css">
     <style type="text/css">
+        html,body{height:0;}
         #particles {position: absolute;top: 0;z-index: -1;width: 100%;height: 100%;}
         #particles canvas {display: block;}
     </style>
@@ -28,7 +29,7 @@
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body" style="border: 1px solid #d5d5d5;border-radius: 3px;background: rgba(255,255,255,0.5);">
-        <p class="login-box-msg">用户登录</p>
+        <p class="login-box-msg" >用户登录</p>
 
         <form id="loginform" name="loginform" action="/account/executeLogin" method="post">
             <div class="form-group has-feedback">
@@ -57,12 +58,17 @@
     </div>
     <!-- /.login-box-body -->
 </div>
-<!-- /.login-box -->
 
 <!-- 粒子特效 -->
 <div id="particles">
     <canvas class="particles-js-canvas-el" id="canvas" style="width: 100%; height: 100%;"></canvas>
 </div>
+
+<!--footer-->
+<footer class="footer-ele" style="text-align: center;">
+    <div class="footer-div-ele" style="height: 100px;"></div>
+    <strong>© Copyright 2017 <a href="https://github.com/CMINI777/adminWeb">CMINI777</a> - All Rights Reserved</strong>
+</footer>
 
 <!-- jQuery 3.1.1 -->
 <script src="/static/adminLTE/plugins/jQuery/jquery-3.1.1.min.js"></script>
@@ -72,5 +78,19 @@
 <script src="/static/adminLTE/bootstrap/js/bootstrap.min.js"></script>
 <!-- iCheck -->
 <script src="/static/adminLTE/plugins/iCheck/icheck.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+        changeFooterH();
+        function changeFooterH(){
+            var mainContentH = document.documentElement.clientHeight;
+            var footerOffsetTop = $('.footer-ele').offset().top;
+            var footerH =  mainContentH - 26 - footerOffsetTop;
+            $('.footer-div-ele').height(footerH);
+        }
+        window.onresize=function(){
+            changeFooterH();
+        };
+    });
+</script>
 </body>
 </html>
