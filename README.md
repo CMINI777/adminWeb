@@ -8,7 +8,6 @@ Mini Project.
 
 Based on Spring Boot+datatables+bootstrap table background template, with a flat style, to achieve screen adaptiv.
 
-已添加`boot`分支，项目未完工。
 
 
 

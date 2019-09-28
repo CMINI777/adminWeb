@@ -17,13 +17,6 @@ public class MenusController {
 	@Autowired
 	private MenusService menusService;
 
-	/**
-	 * 
-	 * @param testRestful 仅用于测试restful
-	 * @param param 仅用于测试传值
-	 * @return
-	 * @throws Exception
-	 */
 	@RequestMapping(value="get/{testRestful}")
 	@ResponseBody
 	public Map<String,Object> get(HttpServletRequest request,@PathVariable String testRestful,String param)throws Exception{
@@ -43,7 +36,7 @@ public class MenusController {
 	
 	@RequestMapping(value="/bootstrapTableGet.do")
 	@ResponseBody
-	public Map<String,Object> bootstrapTableGet(HttpServletRequest request) throws Exception{		
+	public Map<String,Object> bootstrapTableGet(HttpServletRequest request) throws Exception{
 		String name = request.getParameter("name");
 		String menutype = request.getParameter("menutype");
 		System.out.println("Controller:name=========="+name);

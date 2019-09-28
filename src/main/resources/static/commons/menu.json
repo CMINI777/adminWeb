@@ -1,0 +1,136 @@
+{"rows": [
+  {
+  "id": "menu_root_id",
+  "parentid": "ROOT",
+  "name": "ROOT",
+  "url": "",
+  "icon": ""
+  },
+  {
+    "id": "01",
+    "parentid": "menu_root_id",
+    "name": "数据表格",
+    "url": "",
+    "icon": "fa fa-table"
+  },
+  {
+    "id": "0101",
+    "parentid": "01",
+    "name": "数据表格1(静态json)",
+    "url": "dataTable1",
+    "icon": "fa fa-table"
+  },
+  {
+    "id": "0102",
+    "parentid": "01",
+    "name": "数据表格2(静态页面)",
+    "url": "dataTable2",
+    "icon": "fa fa-table"
+  },
+  {
+    "id": "0103",
+    "parentid": "01",
+    "name": "菜单列表1(动态页面)",
+    "url": "menus1",
+    "icon": "fa fa-table"
+  },
+  {
+    "id": "0104",
+    "parentid": "01",
+    "name": "菜单列表2(动态页面)",
+    "url": "menus2",
+    "icon": "fa fa-table"
+  },
+  {
+    "id": "02",
+    "parentid": "menu_root_id",
+    "name": "管理菜单",
+    "url": "",
+    "icon": "fa fa-list"
+  },
+  {
+    "id": "0201",
+    "parentid": "02",
+    "name": "二级菜单1",
+    "url": "",
+    "icon": "fa fa-magic"
+  },
+  {
+    "id": "0202",
+    "parentid": "02",
+    "name": "二级菜单2",
+    "url": "",
+    "icon": "fa fa-magic"
+  },
+  {
+    "id": "020101",
+    "parentid": "0201",
+    "name": "三级菜单1",
+    "url": "",
+    "icon": "fa fa-sitemap"
+  },
+  {
+    "id": "020102",
+    "parentid": "0201",
+    "name": "三级菜单2",
+    "url": "",
+    "icon": "fa fa-sitemap"
+  },
+  {
+    "id": "02010201",
+    "parentid": "020102",
+    "name": "四级菜单1",
+    "url": "",
+    "icon": "fa fa-database"
+  },
+  {
+    "id": "02010202",
+    "parentid": "020102",
+    "name": "四级菜单2",
+    "url": "",
+    "icon": "fa fa-database"
+  },
+  {
+    "id": "0201020201",
+    "parentid": "02010202",
+    "name": "五级菜单1",
+    "url": "",
+    "icon": "fa fa-calculator"
+  },
+  {
+    "id": "0201020202",
+    "parentid": "02010202",
+    "name": "五级菜单2",
+    "url": "",
+    "icon": "fa fa-calculator"
+  },
+  {
+    "id": "03",
+    "parentid": "menu_root_id",
+    "name": "常用工具",
+    "url": "",
+    "icon": "fa fa-cog"
+  },
+  {
+    "id": "0301",
+    "parentid": "03",
+    "name": "chartJs",
+    "url": "chartJs",
+    "icon": "fa fa-table"
+  },
+  {
+    "id": "0302",
+    "parentid": "03",
+    "name": "morris",
+    "url": "morris",
+    "icon": "fa fa-table"
+  },
+  {
+    "id": "0303",
+    "parentid": "03",
+    "name": "treeview",
+    "url": "treeview",
+    "icon": "fa fa-table"
+  }
+]
+}
