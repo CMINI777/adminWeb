@@ -23,6 +23,7 @@
     <script src="/static/adminLTE/plugins/adaptationIE/html5shiv.min.js"></script>
     <script src="/static/adminLTE/plugins/adaptationIE/respond.min.js"></script>
     <![endif]-->
+    <style>.leftmenu-refresh{position: absolute;right: 10px;top: 50%;margin-top: -7px;cursor: pointer;}.leftmenu-refresh:hover{color: #fff;}.sidebar>div.header {color: #4b646f;background: #1a2226;}.sidebar>div.header {overflow: hidden;text-overflow: clip;}.sidebar>div.header {white-space: nowrap;overflow: hidden;}.sidebar div.header {padding: 10px 25px 10px 15px;font-size: 12px;}.sidebar>div {position: relative;margin: 10px 0px 0px 0px;padding: 0;}</style>
 </head>
 <!--
 body标签选项：
@@ -235,119 +236,19 @@ body标签选项：
                 </div>
             </div>
 
+            <div class="header">功能菜单<i class="fa fa-refresh leftmenu-refresh"></i></div>
 
             <!-- 边栏菜单 -->
             <ul class="sidebar-menu" data-widget="tree">
-                <li class="header">功能菜单</li>
-                <!-- 下面为树形菜单 -->
-                <li class="treeview">
-                    <a href="javascript:;" >
-                        <i class="fa fa-trello"></i> <span>自助设备</span>
-                        <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="javascript:;" class="J_menuItem"><i class="fa fa-circle-o"></i> 设备信息及设置</a></li>
-                        <li class="treeview">
-                            <a href="javascript:;" ><i class="fa fa-circle-o"></i> 会员及消费
-                                <span class="pull-right-container">
-                  <i class="fa fa-angle-left pull-right"></i>
-                </span>
-                            </a>
-                            <ul class="treeview-menu">
-                                <li><a href="javascript:;" class="J_menuItem"><i class="fa fa-circle-o"></i> 投币</a></li>
-                                <li class="treeview">
-                                    <a href="javascript:;" ><i class="fa fa-circle-o"></i> 银联
-                                        <span class="pull-right-container">
-                      <i class="fa fa-angle-left pull-right"></i>
-                    </span>
-                                    </a>
-                                    <ul class="treeview-menu">
-                                        <li><a href="javascript:;" class="J_menuItem"><i class="fa fa-circle-o"></i> 四级菜单</a></li>
-                                        <li class="treeview">
-                                            <a href="javascript:;" ><i class="fa fa-circle-o"></i> 四级菜单
-                                                <span class="pull-right-container">
-	                      <i class="fa fa-angle-left pull-right"></i>
-	                    </span>
-                                            </a>
-                                            <ul class="treeview-menu">
-                                                <li><a href="javascript:;" class="J_menuItem"><i class="fa fa-circle-o"></i> 五级菜单</a></li>
-                                                <li><a href="javascript:;" class="J_menuItem"><i class="fa fa-circle-o"></i> 五级菜单</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="javascript:;"  class="J_menuItem" ><i class="fa fa-circle-o"></i> 离线IC卡消费记录</a></li>
-                    </ul>
-                </li>
-                <li><a href="javascript:;"  class="J_menuItem" ><i class="fa fa-envelope-o"></i> <span>短信和通知设置</span></a></li>
-                <li class="treeview">
-                    <a href="javascript:;" ><i class="fa fa-cog"></i> <span>系统管理</span>
-                        <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="javascript:;"  class="J_menuItem"><i class="fa fa-list"></i> 系统菜单</a></li>
-                        <li><a href="javascript:;"  class="J_menuItem"><i class="fa fa-magic"></i> 初始化</a></li>
-                        <li class="treeview">
-                            <a href="javascript:;" ><i class="fa fa-user"></i> 组织人员
-                                <span class="pull-right-container">
-                      <i class="fa fa-angle-left pull-right"></i>
-                    </span>
-                            </a>
-                            <ul class="treeview-menu">
-                                <li><a href="javascript:;"  class="J_menuItem"><i class="fa fa-sitemap"></i> 组织机构</a></li>
-                                <li><a href="javascript:;"  class="J_menuItem"><i class="fa fa-male"></i> 系统用户</a></li>
-                                <li><a href="javascript:;"  class="J_menuItem"><i class="fa fa-user-md"></i> 系统角色</a></li>
-                                <li><a href="javascript:;"  class="J_menuItem"><i class="fa fa-sliders"></i> 功能权限定义</a></li>
-                                <li><a href="javascript:;"  class="J_menuItem"><i class="fa fa-database"></i> 数据权限定义</a></li>
-                                <li><a href="javascript:;"  class="J_menuItem"><i class="fa fa-drupal"></i> 会员用户</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="javascript:;"><i class="fa fa-cog"></i> 系统配置</a></li>
-                    </ul>
-                </li>
-                <li class="treeview">
-                    <a href="javascript:;"><i class="fa fa-wrench"></i> <span>常用工具</span>
-                        <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="javascript:;"  class="J_menuItem"><i class="fa fa-calendar-o"></i> 万年历</a></li>
-                        <li><a href="javascript:;"  class="J_menuItem"><i class="fa fa-calculator"></i> 科学计算器</a></li>
-                        <li><a href="javascript:;"  class="J_menuItem"><i class="fa fa-clock-o"></i> 时钟</a></li>
-                        <li><a href="editors"  class="J_menuItem"><i class="fa fa-clock-o"></i> 编辑器</a></li>
-                    </ul>
-                </li>
-                <li class="treeview">
-                    <a href="javascript:;"><i class="fa fa-table"></i> <span>数据表格</span>
-                        <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="dataTable1"  class="J_menuItem"><i class="fa fa-table"></i>数据表格1(静态json)</a></li>
-                        <li><a href="dataTable2"  class="J_menuItem"><i class="fa fa-table"></i>数据表格2(静态页面)</a></li>
-                        <li><a href="menus1" class="J_menuItem"><i class="fa fa-table"></i>菜单列表1(动态页面)</a></li>
-                        <li><a href="menus2" class="J_menuItem"><i class="fa fa-table"></i>菜单列表2(动态页面)</a></li>
-                    </ul>
-                </li>
-
             </ul>
             <!-- /.边栏菜单 -->
         </section>
         <!-- /.侧边栏 -->
     </aside>
 
-
     <!--主页内容 （页面中部开始） -->
     <div class="content-wrapper">
-        <div class="row content-tabs" style="margin-right: 5px;margin-left: 5px;">
+        <div class="row content-tabs" style="margin-left: 5px;">
             <button class="roll-nav roll-left J_tabLeft"><i class="fa fa-backward"></i>
             </button>
             <nav class="page-tabs J_menuTabs">
@@ -355,20 +256,35 @@ body标签选项：
                     <a href="javascript:;" class="active J_menuTab" data-id="menus2">首页</a>
                 </div>
             </nav>
+            <button class="roll-nav roll-right J_tabRight"><i class="fa fa-forward"></i>
+            </button>
+            <div class="btn-group roll-nav roll-right">
+                <button class="dropdown J_tabClose" data-toggle="dropdown" aria-expanded="false">关闭操作<span class="caret"></span>
+                </button>
+                <ul role="menu" class="dropdown-menu dropdown-menu-right">
+                    <li class="J_tabShowActive">
+                        <a>定位当前选项卡</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="J_tabCloseAll">
+                        <a>关闭全部选项卡</a>
+                    </li>
+                    <li class="J_tabCloseOther">
+                        <a>关闭其他选项卡</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="row J_mainContent" id="content-main" style="margin-right: 5px;margin-left: 5px;">
-            <iframe class="J_iframe"  scrolling="no" frameborder="0" name="iframe0" width="100%" height="100%" src="menus2" frameborder="0" data-id="menus2" seamless=""></iframe>
+        <div class="row J_mainContent" id="content-main" width="100%" height="100%" style="margin-left: 5px;">
+            <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="menus2" frameborder="0" data-id="menus2" seamless=""></iframe>
         </div>
     </div>
-    <script type="text/javascript">
-
-    </script>
 
     <!-- 页脚（页面底部开始） -->
     <footer class="main-footer">
         <!-- To the right -->
         <div class="pull-right hidden-xs">
-            Mini Project.
+            迷你项目
         </div>
         <!-- Default to the left -->
         <strong>Copyright &copy; 2017 <a href="https://github.com/CMINI777/adminWeb">CMINI777</a>.</strong> 版权所有
@@ -452,16 +368,20 @@ body标签选项：
 </div>
 <!-- ./wrapper -->
 
-<!-- jQuery 3.1.1 -->
-<script src="/static/adminLTE/plugins/jQuery/jquery-3.1.1.min.js"></script>
+<script src="/static/adminLTE/plugins/jQuery/jquery.min.js"></script>
 <!-- Bootstrap 3.3.7 -->
 <script src="/static/adminLTE/bootstrap/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
 <script src="/static/adminLTE/dist/js/adminlte.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="/static/adminLTE/dist/js/demo.js"></script>
+
+<link rel="stylesheet" href="/static/adminLTE/plugins/layui/css/layui.css">
+<script src="/static/adminLTE/plugins/layui/layui.js"></script>
 <!-- 多Tab页js -->
 <script src="/static/adminLTE/plugins/tab/contabs.min.js"></script>
+<script src="/static/adminLTE/plugins/tab/tabs.js"></script>
+<script src="/static/adminLTE/plugins/tab/hplus-tab.js"></script>
 <!-- 本页js -->
 <script src="/static/js/index.js"></script>
 </body>
